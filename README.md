@@ -28,15 +28,13 @@ SQL Server veritabanına doğrudan bağlanılarak iki ana yönetim ekranı tasar
 * **KPI Kartları:** Toplam Envanter Değeri (`SUMX`) ve Kritik Stok Seviyesindeki Ürün Sayısı (`CALCULATE`).
 * **Görseller:** Kategori bazlı stok adedi ve maliyet dağılımı (Bar & Donut Chart), kategori dilimleyici (`Slicer`) ve kritik stok eşiği altındaki ürünleri kırmızı renkle uyaran koşullu biçimlendirmeli yönetici detay tablosu.
 
-![Envanter Özeti](envanter-ozeti.png)
+
 
 ### 2. Satış Analizi Paneli
 * **KPI Kartları:** Toplam Ciro (`SUMX`), Toplam Sipariş Sayısı (`DISTINCTCOUNT`) ve Satılan Toplam Ürün Adedi (`SUM`).
 * **Görseller:** Tarihsel ciro trendi (Line Chart), müşteri bazlı ciro sıralaması (Clustered Bar Chart) ve ödeme yöntemlerine (Vadeli, Havale, Kredi Kartı) göre ciro dağılımı (Donut Chart).
 
-![Satış Analizi](satis-analizi.png)
 
----
 
 ## Temel DAX Ölçüleri
 
